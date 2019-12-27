@@ -1,0 +1,92 @@
+h1 {
+	text-align: center;
+	font-family: 'Indie Flower', cursive;
+	font-weight: bold;
+	font-size: 100px;
+	margin-top: 20px;
+}
+
+body {
+	background: grey;
+}
+
+.buttonDiv {
+	text-align: center;
+}
+
+.container {
+	text-align: center;
+	margin: 50px auto 0 auto;
+	width: 300px;
+	overflow: hidden;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.sqaure {
+	border: 1px solid black;
+	border-width: 3px;
+	width: 100px;
+	height: 100px;
+	text-align: center;
+	float: left;
+	font-size: 85px;
+	line-height: 100px;
+	cursor: pointer;
+	font-family: 'Indie Flower', cursive;
+	
+}
+
+.sqaure:hover {
+	background-color: rgba(100, 100, 100, 50)!important;
+}
+
+#sq1 {
+	border-top-width: 0px;
+	border-left-width: 0px;
+}
+
+#sq2 {
+	border-top-width: 0px;
+}
+
+#sq3 {
+	border-top-width: 0px;
+	border-right-width: 0px;
+}
+
+#sq4 {
+	border-left-width: 0px;
+}
+
+#sq6 {
+	border-right-width: 0px;
+}
+
+#sq7 {
+	border-left-width: 0px;
+	border-bottom-width: 0px;
+}
+
+#sq8 {
+	border-bottom-width: 0px;
+}
+
+#sq9 {
+	border-bottom-width: 0px;
+	border-right-width: 0px;
+}
+
+#winner {
+	text-align: center;
+	margin-top: 70px;
+	font-size: 50px;
+	font-family: 'Indie Flower', cursive;
+	font-weight: bold;
+	height: 60px;
+}
+
+.copyright {
+	text-align: center;
+	margin-top: 70px;
+}
